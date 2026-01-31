@@ -75,13 +75,13 @@ export default function User() {
     }
   }
 
-  //   function handleFetchListOfUsers() {
-  //     fetchAllUsers();
-  //   }
+    // function handleFetchListOfUsers() {
+    //   fetchAllUsers();
+    // }
 
-  //   useEffect(() => {
-  //     fetchAllUsers();
-  //   }, []);
+    // useEffect(() => {
+    //   fetchAllUsers();
+    // }, []);
 
   console.log(usersList);
 
