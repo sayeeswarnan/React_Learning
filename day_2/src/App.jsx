@@ -6,7 +6,8 @@ import Products from './Components/Products/Products'
 import User from './Components/Users/User'
 import ContextButtonComponent from './Components/Hooks/Context/Button'
 import ContextTextComponent from './Components/Hooks/Context/Text'
-
+import UseReducerExample from './Components/Reducer/ReducerEg'
+import Out from './Components/Practice/Out'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,8 +21,10 @@ function App() {
           City={"madurai"}
         /> */}
         {/* <User /> */}
-        <ContextButtonComponent />
-        <ContextTextComponent />
+        {/* <ContextButtonComponent />
+        <ContextTextComponent /> */}
+        <UseReducerExample />
+        {/* <Out /> */}
       </div>
     </>
   );
